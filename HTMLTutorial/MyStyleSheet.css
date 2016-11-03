@@ -1,0 +1,63 @@
+﻿
+body {
+
+    background-color: #ffffff;
+    color: black;
+
+    font-family:  
+    /*'Times New Roman';
+        font-weight:bold;
+        Helvetica, sans-serif;
+        Skriva en kommentar eller något
+    */
+/*SADFASDFASDF*/
+}
+
+main{
+    border: solid black 5px;
+    margin: auto;
+    width:80%;
+    background-color: #eeeeee;
+}
+
+header{
+
+    background-color:yellow;
+}
+
+#myDivId{
+    background-color:white;
+
+}
+div > h2{
+
+    background-color: green;
+}
+
+h1,h2 {
+    background-color: red;
+}
+
+
+
+a{
+    
+
+}
+
+a:visited{
+    color: midnightblue;
+}
+
+a:hover{
+
+    color: red;
+}
+
+a:focus{
+    
+    font-weight: bold;
+}
+a:active{
+    color:green;
+}
