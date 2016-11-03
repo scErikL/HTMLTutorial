@@ -65,9 +65,16 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ErikStyle.css" />
+    <Content Include="GarageStyle.css" />
+    <Content Include="Garaget.html" />
+    <Content Include="IframeTest.html" />
     <Content Include="images\school.jpg" />
     <Content Include="Index.html" />
+    <Content Include="InnehallTillIFrame.html" />
+    <Content Include="JavascriptPage.html" />
     <Content Include="myStyle.css" />
+    <Content Include="MyStyleSheet.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

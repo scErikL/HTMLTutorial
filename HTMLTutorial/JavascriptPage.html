@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <input type="text" id="txtInput" />
+    <input type="button" value="Submit" id="btnMyButton" />
+
+    <p id="pId"></p>
+
+    <script type="text/javascript">
+        window.onload = function () {
+            //var name = prompt("Enter your name:");
+            //document.getElementById("pId").innerHTML = "Välkommen " + name;
+
+
+            var discountPrice = 100;
+            var regularPrice = 120;
+
+            var alder = prompt("Ange din ålder");
+            var msg = "";
+            if (alder < 16)
+                msg = "Som ungdom får du betala " + discountPrice;
+            else if (alder > 65)
+                msg = "Som pensionär får du betala " + discountPrice;
+            else
+                msg = "Ditt pris blir " + regularPrice;
+
+            console.log(msg);
+
+            var btn = document.getElementById("btnMyButton");
+            btn.onclick = function () {
+                document.getElementById("pId").innerHTML = "Hej " + document.getElementById("txtInput").value + " välkommen att lära dig JavaScript";
+            }
+        }
+    </script>
+
+
+    <!--
+    <p id="printthis">Thank you for your order. Please print this page for your records.</p>
+    <script type="text/javascript">
+        (function () {
+            if (document.getElementById) {
+                var pt = document.getElementById('printthis');
+                if (pt && typeof window.print === 'function') {
+                    var but = document.createElement('input');
+                    but.setAttribute('type', 'button');
+                    but.setAttribute('value', 'Print this now');
+                    but.onclick = function () {
+                        window.print();
+                    };
+                    pt.appendChild(but);
+                }
+            }
+        })();
+    </script>
+        -->
+</body>
+</html>
